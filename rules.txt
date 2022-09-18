@@ -1,0 +1,3 @@
+neto leto(
+-is:retweet lang:pt ("HBO GO" OR "HBOGO" OR "Disney+" OR "Disney +" OR "Netflix" OR "Globoplay" OR (Amazon (Prime OR video) -frete -Bradesco ) OR Prime Video)
+putirimabeck

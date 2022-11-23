@@ -5,7 +5,7 @@ import tweepy
 import json
 
 load_dotenv()
-#Chaning tweepy class to save data on file
+#Changing the  orginial tweepy class to save data on file
 class TweetListener(tweepy.StreamingClient):
     def on_data(self, raw_data):
         out.write(json.dumps(json.loads(raw_data),ensure_ascii=False)+'\n')
